@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,900&display=swap');
+
+* {
+    font-family: "Poppins";
+    font-weight: 500;
+}
+body {
+    background: linear-gradient(320deg, #000000, #5f5f5f, #000000);
+    background-size: 600% 600%;
+    -webkit-animation: animation-css 20s ease infinite;
+    -moz-animation: animation-css 20s ease infinite;
+    -o-animation: animation-css 20s ease infinite;
+    animation: animation-css 20s ease infinite;
+    text-align: center;
+
+}
+@-webkit-keyframes animation-css {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes animation-css {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes animation-css {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes animation-css {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+    text-align: center;
+    color:  white;
+}
+h2 {
+    text-align: center;
+    color:  white;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+div {
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+div td:first-child{
+    color: red;
+}
+div td:last-child{
+    color: red;
+}
+
+div td{
+    border: 1px solid white;
+    padding: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    
+}
+div th {
+    font-weight: 300;
+}
+.last-mounth {
+    color: grey;
+}
+
+div td:hover{
+    background-color: lightgray;
+}
+
+.namo:hover{
+    background-color: lightcoral;
+}
+.corpus:hover {
+    background-color: lightseagreen;
+}
+.lista {
+    text-align: start;
+    font-size: 15px;
+    font-family: "Poppins";
+    transition: all 0.90s;
+    font-weight: 300;
+}
+.lista:hover {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
